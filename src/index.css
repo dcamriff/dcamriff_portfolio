@@ -1,3 +1,8 @@
+:root {
+  --mint: #DCEBE4;
+  --marsala: #964F4C;
+}
+
 body {
   margin: 0;
   padding: 0;
