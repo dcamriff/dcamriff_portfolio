@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import { HomeContainer } from './styled-components/HomeStyled.js'
+
 
 class Home extends Component {
     render () {
         return (
-            <div>Hello, please scroll and enjoy ... </div>
+            <HomeContainer>Lovely to meet you, please scroll down and enjoy ... </HomeContainer>
         )
     }
 }
