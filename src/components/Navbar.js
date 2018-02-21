@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 import { NavContainer, LogoContainer, NavHeaderContainer, LinksContainer } from './styled-components/NavbarStyled'
 import '../App.css'
+import logo2 from '../logo2.svg'
 
 class Navbar extends Component {
     render() {
         return (
             <NavContainer>
-                <LogoContainer>Logo</LogoContainer>
-                <NavHeaderContainer>Nav Head</NavHeaderContainer>
+                <LogoContainer><img src={logo2} alt="diane riffel logo"/></LogoContainer>
+                {/* <NavHeaderContainer>Nav Head</NavHeaderContainer> */}
                 <LinksContainer>
                 <a href="#">Projects</a>
                 <span> / </span>
