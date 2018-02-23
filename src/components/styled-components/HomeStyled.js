@@ -6,7 +6,7 @@ border: solid 1px green;
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 600px;
+height: 900px;
 font-size: 24px;
 
 

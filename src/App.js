@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Project from './components/Project'
 import Work from './components/Work'
 import Footer from './components/Footer'
 
@@ -15,7 +16,8 @@ class App extends Component {
         <Navbar />
         <Home />
         <About />
-        <Work />
+        <Project />
+        {/* <Work /> */}
         <Footer />
       </div>
     )

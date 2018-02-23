@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import { NavContainer, LogoContainer, NavHeaderContainer, LinksContainer } from './styled-components/NavbarStyled'
 import '../App.css'
 import logo2 from '../logo2.svg'
+import Project from './Project'
+import About from './About'
 
 class Navbar extends Component {
     render() {
@@ -10,9 +12,9 @@ class Navbar extends Component {
                 <LogoContainer><img src={logo2} alt="diane riffel logo"/></LogoContainer>
                 {/* <NavHeaderContainer>Nav Head</NavHeaderContainer> */}
                 <LinksContainer>
-                <a href="#">Projects</a>
+                <a href="#projects">Projects</a>
                 <span> / </span>
-                <a href="#">About Me</a>
+                <a href="#about-me">About Me</a>
                 </LinksContainer>
             </NavContainer>
         )

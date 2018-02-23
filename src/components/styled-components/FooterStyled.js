@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const FootContainer = styled.div`
-background-color: yellow;
-border: solid 1px green;
+background-color: black;
+color: white;
+/* border: solid 1px green; */
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -15,23 +16,26 @@ height: 50px;
 `
 
 export const FootLeftContainer = styled.div`
-background-color: pink;
-border: solid 1px black;
+color: white;
+/* background-color: pink; */
+/* border: solid 1px black; */
 `
 export const FootCenterContainer = styled.div`
-background-color: pink;
-border: solid 1px black;
+color: white;
+/* background-color: pink; */
+/* border: solid 1px black; */
 `
 
 export const FootRightContainer = styled.div`
-background-color: pink;
-border: solid 1px black;
+/* background-color: pink; */
+/* border: solid 1px black; */
+color: white;
 display: flex;
 justify-content: space-between;
 align-items: center;
 a {
     text-decoration: none;
     padding: 0 15px;
-    color: black;
+    color: white;
 }
 `
