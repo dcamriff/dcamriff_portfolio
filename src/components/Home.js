@@ -10,7 +10,7 @@ class Home extends Component {
                 <HomeNavBackground></HomeNavBackground>
                 <HomeContent>
                 <div>
-                <h1>Hello! I'm Diane, a shop owner turned full-stack developer.</h1>
+                    <h1>Hello! I'm Diane, a shop owner turned full-stack developer.</h1>
                 </div>
                 <div><img src={ProfilePic} alt=""/></div>
                 </HomeContent>
