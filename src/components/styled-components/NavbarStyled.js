@@ -29,21 +29,17 @@ img {
     transition-timing-function: ease;
 }
 `
-export const NavHeaderContainer = styled.div`
-background-color: pink;
-border: solid 1px black;
-`
 
 export const LinksContainer = styled.div`
-/* background-color: pink; */
-/* border: solid 1px black; */
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-right: 7px;
 a {
     text-decoration: none;
     padding: 0 15px;
     color: black;
+    font-size: 1.5em;
 }
 @media (max-width: 412px){
     flex-wrap: wrap;

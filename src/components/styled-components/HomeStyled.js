@@ -33,8 +33,10 @@ height: 700px;
 
 h1 {
     color: #A56E60;
+    /* color: white; */
     font-size: 4em;
     margin-left: 10px;
+    font-style: strong;
     @media (max-width: 412px){
         font-size: 2em;
         margin-left: .5em;

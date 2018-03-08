@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { NavContainer, LogoContainer, NavHeaderContainer, LinksContainer } from './styled-components/NavbarStyled'
+import { NavContainer, LogoContainer, LinksContainer } from './styled-components/NavbarStyled'
 import '../App.css'
 import logo2 from '../logo2.svg'
 import Project from './Project'
