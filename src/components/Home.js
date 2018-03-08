@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
-import { HomeContainer } from './styled-components/HomeStyled.js'
+import { HomeNavBackground, HomeContainer, HomeText } from './styled-components/HomeStyled.js'
+import ProfilePic from './styled-components/img/profile-pic-sq.png'
 
 
 class Home extends Component {
     render () {
         return (
-            <HomeContainer>Lovely to meet you, please scroll down and enjoy ... </HomeContainer>
+            <div>
+                <HomeNavBackground></HomeNavBackground>
+                <HomeContainer>
+                <div>
+                <h1>Hello! I'm Diane, a shop owner turned full-stack developer.</h1>
+                </div>
+                <div><img src={ProfilePic} alt=""/></div>
+
+            </HomeContainer>
+            </div>
         )
     }
 }

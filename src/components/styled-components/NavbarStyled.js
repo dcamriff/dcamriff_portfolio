@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const NavContainer = styled.div`
 background-color: #DDEDE8;
-/* border: solid 1px green; */
 display: flex;
 justify-content: space-between;
 align-items: center;
