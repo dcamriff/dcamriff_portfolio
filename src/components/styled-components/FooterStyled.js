@@ -10,7 +10,7 @@ align-items: center;
 padding: 3px;
 height: 50px;
 
-@media only screen (max-width: 375px){
+@media only screen (max-width: 412px){
 
 }
 `
