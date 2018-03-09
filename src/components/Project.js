@@ -9,7 +9,7 @@ const Project = () => {
         <ProjectsContainer>
             <Container id="projects">
                 <a href="http://jeopardy-for-kids-game-5e11a7.bitballoon.com/">
-                    <img src="https://i.imgur.com/o6ZAHFZ.png" alt="jeapoardy game app"/>
+                    <img src="https://i.imgur.com/R1xQCpB.png" alt="jeapoardy game app"/>
                    
                     <Overlay>
                         <Text><span>Jeopardy Game</span> / HTML / CSS / Javascript</Text><br/>
@@ -19,7 +19,7 @@ const Project = () => {
 
             <Container>
                 <a href="https://project-3-dcr.herokuapp.com/users">
-                    <img src="https://i.imgur.com/jqmdVjg.png" alt="chore rewarder app"/>
+                    <img src="https://i.imgur.com/o77uyu6.png" alt="chore rewarder app"/>
 
                     <Overlay>
                         <Text>Chore Rewarder</Text><br/>
@@ -52,8 +52,8 @@ const Project = () => {
             </Container>
 
             <Container>
-                <a href="https://gig-posters-wdi.herokuapp.com/">
-                    <img src="https://i.imgur.com/QtSrgj7.png" alt="gig poster app"/>
+                <a href="https://barista-goals.herokuapp.com/">
+                    <img src="https://i.imgur.com/eIl6CVG.png" alt="gig poster app"/>
 
                     <Overlay>
                         <Text>Barista Goals</Text><br/>
