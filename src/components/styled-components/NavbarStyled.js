@@ -10,6 +10,7 @@ padding: 3px;
 height: 20vh;
 width: 100vw;
 position: fixed;
+z-index: 999;
 
 @media (max-width: 412px){
     flex-wrap: wrap;

@@ -36,7 +36,12 @@ h1 {
     /* color: white; */
     font-size: 4em;
     margin-left: 10px;
-    font-style: strong;
+    /* text-shadow:
+    -1px -1px 0 rgba(255,255,255,.7),  
+    1px -1px 0 rgba(255,255,255,.7),
+    -1px 1px 0 rgba(255,255,255,.7),
+    1px 1px 0 rgba(255,255,255,.7); */
+}
     @media (max-width: 412px){
         font-size: 2em;
         margin-left: .5em;

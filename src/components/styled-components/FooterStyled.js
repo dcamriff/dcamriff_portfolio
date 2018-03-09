@@ -9,6 +9,12 @@ justify-content: space-between;
 align-items: center;
 padding: 3px;
 height: 50px;
+z-index: 999;
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+
 
 @media only screen (max-width: 412px){
 

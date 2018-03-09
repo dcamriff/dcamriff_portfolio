@@ -10,9 +10,12 @@ flex-wrap: wrap;
 /* justify-content: flex-start; */
 align-items: center;
 border: solid 1px white;
+margin-left: 4vw;
 
 img {
-    width: 416.55px;
+    /* width: 416.55px; */
+    width: 500px;
+    height: 400px;
     border: solid 1px white;
     @media (max-width){
 
@@ -22,7 +25,10 @@ img {
 
 export const Container = styled.div `
 position: relative;
-width: 416.55px;
+/* width: 416.55px; */
+width: 500px;
+height: 400px;
+
 a {
      width: 100%;
     }

@@ -7,18 +7,28 @@ const Project = () => {
         <div>
         <ProjectSectionTitle>Projects</ProjectSectionTitle>
         <ProjectsContainer>
+            <Container>
+                <a href="https://barista-goals.herokuapp.com/" target="_blank">
+                    <img src="https://i.imgur.com/eIl6CVG.png" alt="gig poster app"/>
+
+                    <Overlay>
+                        <Text><strong>Barista Goals</strong> | React / Ruby on Rails / PostgreSQL </Text>
+                    </Overlay>
+                </a>
+            </Container>
+
             <Container id="projects">
-                <a href="http://jeopardy-for-kids-game-5e11a7.bitballoon.com/">
+                <a href="http://jeopardy-for-kids-game-5e11a7.bitballoon.com/" target="_blank">
                     <img src="https://i.imgur.com/R1xQCpB.png" alt="jeapoardy game app"/>
                    
                     <Overlay>
-                        <Text><span>Jeopardy Game</span> / HTML / CSS / Javascript</Text><br/>
+                        <Text><strong>Jeopardy Game</strong> | HTML / CSS / Javascript</Text><br/>
                     </Overlay>
                 </a>
             </Container>
 
             <Container>
-                <a href="https://project-3-dcr.herokuapp.com/users">
+                <a href="https://project-3-dcr.herokuapp.com/users" target="_blank">
                     <img src="https://i.imgur.com/o77uyu6.png" alt="chore rewarder app"/>
 
                     <Overlay>
@@ -30,18 +40,20 @@ const Project = () => {
             </Container>
 
             <Container>
-                <a href="http://voyago.herokuapp.com/">
+                <a href="http://voyago.herokuapp.com/" target="_blank">
                     <img src="https://i.imgur.com/8NF55lW.png" alt="vojago app"/>
 
                     <Overlay>
-                        <Text>Group | Vojago</Text><br/>
+                        <Text><strong>Vojago </strong>Group Project: | React / Ruby on Rails / PostgreSQL </Text><br/>
                         <Text></Text>
                     </Overlay>
                 </a>
             </Container>
+            
+
 
             <Container>
-                <a href="https://gig-posters-wdi.herokuapp.com/">
+                <a href="https://gig-posters-wdi.herokuapp.com/" target="_blank">
                     <img src="https://i.imgur.com/QtSrgj7.png" alt="gig poster app"/>
 
                     <Overlay>
@@ -51,16 +63,6 @@ const Project = () => {
                 </a>
             </Container>
 
-            <Container>
-                <a href="https://barista-goals.herokuapp.com/">
-                    <img src="https://i.imgur.com/eIl6CVG.png" alt="gig poster app"/>
-
-                    <Overlay>
-                        <Text>Barista Goals</Text><br/>
-                        <Text></Text>
-                    </Overlay>
-                </a>
-            </Container>
             
             
         </ProjectsContainer>
