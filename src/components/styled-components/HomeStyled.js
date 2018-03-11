@@ -10,7 +10,7 @@ flex-wrap: wrap;
 
 export const HomeNavBackground = styled.div`
 /* height: 156px; */
-height: 18vh;
+height: 21vh;
 background-color: #DDEDE8;
 @media (max-width: 412px){
 height: 38vh;
@@ -32,15 +32,15 @@ height: 700px;
 }
 
 h1 {
-    color: #A56E60;
-    /* color: white; */
+    /* color: #A56E60; */
+    color: white;
     font-size: 4em;
     margin-left: 10px;
-    /* text-shadow:
-    -1px -1px 0 rgba(255,255,255,.7),  
-    1px -1px 0 rgba(255,255,255,.7),
-    -1px 1px 0 rgba(255,255,255,.7),
-    1px 1px 0 rgba(255,255,255,.7); */
+    text-shadow:
+    -1px -1px 0 rgba(0,0,0,.3),  
+    1px -1px 0 rgba(0,0,0,.3),
+    -1px 1px 0 rgba(0,0,0,.3),
+    1px 1px 0 rgba(0,0,0,.3);
 }
     @media (max-width: 412px){
         font-size: 2em;
