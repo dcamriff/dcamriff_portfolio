@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <LinksContainer>
                 <a href="#projects">Projects</a>
                 <span> / </span>
-                <a href="#about-me">About Me</a>
+                <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing">Resume</a>
                 </LinksContainer>
             </NavContainer>
         )
