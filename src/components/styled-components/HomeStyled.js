@@ -19,7 +19,7 @@ height: 21vh;
 background-color: #DDEDE8;
 
 @media (max-width: 375px){
-height: 38vh;
+height: 43vh;
 }
 `
 
