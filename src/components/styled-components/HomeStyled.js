@@ -6,6 +6,11 @@ display: flex;
 flex-wrap: wrap;
 /* width: 100%; */
 /* justify-content: space-around; */
+@media (max-width: 414){
+    width: 100vw;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column-reverse; */
+}
 
 @media (max-width: 375){
     width: 100vw;
@@ -83,9 +88,9 @@ img {
     width: 275px;
     border-radius: 50%;
     border: 5px solid white;
-    @media (max-width: 615px) and (min-width: 376px){
+    /* @media (max-width: 615px) and (min-width: 376px){
         width: 200px;
-    }
+    } */
     @media (max-width: 414px){
         align-items: center;
         margin: 1vw;
