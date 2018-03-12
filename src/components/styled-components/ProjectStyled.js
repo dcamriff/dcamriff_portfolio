@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectSectionTitle = styled.div`
-font-size: 2em;
+font-size: 1.50em;
 align-items: center;
 text-align: center;
 `
@@ -9,27 +9,45 @@ text-align: center;
 export const ProjectsContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
-/* justify-content: flex-start; */
 align-items: center;
-border: solid 1px white;
-/* margin-left: 4vw; */
 
 @media (max-width: 375px){
     margin-left: 0;
 }
 
-img {
-    /* width: 500px; */
-    /* height: 400px; */
-    /* border: solid 1px white; */
-    /* @media (max-width: 375px){ */
-        /* width: 372px; */
-        /* height: 300px; */
-        /* margin-left: 0; */
-    }
-}
 `
 
+export const ProjectInfoTitle = styled.div`
+
+`
+export const ProjectImageContainer = styled.div`
+position: relative;
+/* width: 500px; */
+/* height: 400px; */
+width: 100%;
+height: 25%;
+
+@media (max-width: 375px){
+    width: 375px;
+    height: 312px;
+}
+img {
+    /* width: 375px; */
+    width: 100%;
+    /* height: 400px; */
+    border: solid 1px white;
+    @media (max-width: 375px){
+        width: 372px;
+        /* height: 300px; */
+        margin-left: 0;
+    }
+}
+
+a {
+     width: 100%;
+    }
+
+`
 export const Container = styled.div `
 position: relative;
 /* width: 500px; */

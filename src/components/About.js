@@ -5,7 +5,7 @@ const About = () => {
     return (
         <AboutContainer id="about-me">
             <div>
-                <p>A pioneer in the Atlanta coffee scene, Diane co-founded Octane Coffee Company in 2003.</p>
+                <p>A pioneer in the Atlanta coffee scene and Westside Arts and Business district since 2003, Diane is a co-founder of Octane Coffee Company.</p>
             </div>
             <div>
 
