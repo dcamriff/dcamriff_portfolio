@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
 import {
-    ProjectSectionTitle,
-    ProjectsContainer,
     Container,
     ProjectInfoTitle,
     ProjectImageContainer,
     Text,
-    Overlay,
-    Image
+    Overlay
 } from './styled-components/ProjectStyled'
 
 class ProjectCard extends Component {
@@ -22,7 +19,7 @@ class ProjectCard extends Component {
                 </ProjectInfoTitle>
 
                 <ProjectImageContainer>
-                    <a href={this.props.weblink} target="_blank">
+                    <a href={this.props.weblink} target="blank">
                         <img src={this.props.imageUrl} alt={this.props.name}/>
 
                         <Overlay>
