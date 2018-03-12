@@ -34,7 +34,7 @@ a {
     }
   `
 export const Text = styled.div`
-  color: darkgray;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -59,6 +59,7 @@ export const Overlay = styled.div`
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(221,237,232, .9);
+    border: solid 1px white;
     /* background-color: rgb(251, 255, 0); */
     :hover {
     opacity: 1;

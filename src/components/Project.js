@@ -12,7 +12,7 @@ const Project = () => {
                     <img src="https://i.imgur.com/eIl6CVG.png" alt="gig poster app"/>
 
                     <Overlay>
-                        <Text><strong>Barista Goals</strong> | React / Ruby on Rails / PostgreSQL </Text>
+                        <Text><h1>Barista Goals</h1>React / Ruby on Rails / PostgreSQL </Text>
                     </Overlay>
                 </a>
             </Container>
@@ -22,7 +22,7 @@ const Project = () => {
                     <img src="https://i.imgur.com/R1xQCpB.png" alt="jeapoardy game app"/>
                    
                     <Overlay>
-                        <Text><strong>Jeopardy Game</strong> | HTML / CSS / Javascript</Text><br/>
+                        <Text><h1>Jeopardy Game</h1>HTML / CSS / Javascript</Text><br/>
                     </Overlay>
                 </a>
             </Container>
@@ -32,8 +32,7 @@ const Project = () => {
                     <img src="https://i.imgur.com/o77uyu6.png" alt="chore rewarder app"/>
 
                     <Overlay>
-                        <Text>Chore Rewarder</Text><br/>
-                        <Text></Text>
+                        <Text><h1>Chore Rewarder</h1>MongoDB / Express / React / Node.js</Text>
                     </Overlay>
 
                 </a>
@@ -44,26 +43,30 @@ const Project = () => {
                     <img src="https://i.imgur.com/8NF55lW.png" alt="vojago app"/>
 
                     <Overlay>
-                        <Text><strong>Vojago </strong>Group Project: | React / Ruby on Rails / PostgreSQL </Text><br/>
-                        <Text></Text>
+                        <Text><h1>Vojago </h1>Group Project: React / Ruby on Rails / PostgreSQL </Text>
                     </Overlay>
                 </a>
             </Container>
             
-
-
             <Container>
                 <a href="https://gig-posters-wdi.herokuapp.com/" target="_blank">
                     <img src="https://i.imgur.com/QtSrgj7.png" alt="gig poster app"/>
 
                     <Overlay>
-                        <Text>Gig Posters</Text><br/>
-                        <Text></Text>
+                        <Text><h1>Gig Posters</h1>MongoDB / Express / Node.js</Text>
                     </Overlay>
                 </a>
             </Container>
 
-            
+            <Container>
+                <a href="https://github.com/dcamriff/dcamriff_portfolio/" target="_blank">
+                    <img src="https://i.imgur.com/osrb7hF.png" alt="gig poster app"/>
+
+                    <Overlay>
+                        <Text><h1>Portfolio</h1>React / Styled-Components </Text>
+                    </Overlay>
+                </a>
+            </Container>
             
         </ProjectsContainer>
         </div>
