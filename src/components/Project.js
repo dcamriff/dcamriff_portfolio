@@ -1,11 +1,16 @@
 import React from 'react'
 import { ProjectSectionTitle, ProjectsContainer, Container, Text, Overlay, Image } from './styled-components/ProjectStyled'
-import styled from 'styled-components'
+import DownArrow from './styled-components/img/down arrow.png'
+
 
 const Project = () => {
     return (
         <div>
-        <ProjectSectionTitle>Projects</ProjectSectionTitle>
+        <ProjectSectionTitle>
+            <img src={DownArrow} alt=""/>
+            <span> Projects </span>
+            <img src={DownArrow} alt=""/>
+            </ProjectSectionTitle>
         <ProjectsContainer>
             <Container>
                 <a href="https://barista-goals.herokuapp.com/" target="_blank">

@@ -6,7 +6,7 @@ display: flex;
 flex-wrap: wrap;
 /* width: 100%; */
 /* justify-content: space-around; */
-@media (max-width: 375){
+@media (max-width: 412){
     width: 100vw;
     /* flex-wrap: wrap-reverse; */
     /* flex-direction: column-reverse; */
@@ -32,7 +32,7 @@ justify-content: space-between;
 align-items: center;
 height: 68vh;
 
-@media (max-width: 375px){
+@media (max-width: 412px){
     flex-wrap: wrap;
     flex-direction: column-reverse;
     /* height: 450px; */
@@ -53,7 +53,7 @@ h1 {
     1px 1px 0 rgba(0,0,0,.3);
 }
 
-@media (max-width: 375px){
+@media (max-width: 412px){
     font-size: 18px;
     margin-left: .5em;
     width: 100%;
@@ -65,18 +65,24 @@ h1 {
 `
 
 export const ProfileImageContainer = styled.div`
+
 img {
-    width: 300px;
+    width: 275px;
     border-radius: 50%;
     border: 5px solid white;
     /* margin-right: 15vw; */
-    @media (max-width: 375px){
+    @media (max-width: 615px) and (min-width: 376px){
+        width: 200px;
+    }
+    @media (max-width: 412px){
         align-items: center;
         margin: 1vw;
         width: 250px;
     }
+
     @media (min-width: 1024px){
         margin-right: 5vw;
+        /* width: 305px; */
     }
 }
 `
