@@ -6,6 +6,7 @@ display: flex;
 flex-wrap: wrap;
 /* width: 100%; */
 /* justify-content: space-around; */
+
 @media (max-width: 375){
     width: 100vw;
     /* flex-wrap: wrap-reverse; */
@@ -14,12 +15,15 @@ flex-wrap: wrap;
 `
 
 export const HomeNavBackground = styled.div`
-/* height: 156px; */
 height: 21vh;
 background-color: #DDEDE8;
 
+@media (max-width: 414px){
+    height: 39vh;
+}
+
 @media (max-width: 375px){
-height: 43vh;
+height: 39vh;
 }
 `
 
@@ -32,10 +36,14 @@ justify-content: space-between;
 align-items: center;
 height: 68vh;
 
-@media (max-width: 375px){
-    flex-wrap: wrap;
+@media (max-width: 414px){
+    /* flex-wrap: wrap; */
     flex-direction: column-reverse;
-    /* height: 450px; */
+}
+
+@media (max-width: 375px){
+    /* flex-wrap: wrap; */
+    flex-direction: column-reverse;
 }
 `
 export const HomeText = styled.div`
@@ -51,6 +59,11 @@ h1 {
     1px -1px 0 rgba(0,0,0,.3),
     -1px 1px 0 rgba(0,0,0,.3),
     1px 1px 0 rgba(0,0,0,.3);
+}
+@media (max-width: 414px){
+    font-size: 18px;
+    margin-left: .5em;
+    width: 100%;
 }
 
 @media (max-width: 375px){
@@ -70,19 +83,21 @@ img {
     width: 275px;
     border-radius: 50%;
     border: 5px solid white;
-    /* margin-right: 15vw; */
     @media (max-width: 615px) and (min-width: 376px){
         width: 200px;
+    }
+    @media (max-width: 414px){
+        align-items: center;
+        margin: 1vw;
+        width: 250px;
     }
     @media (max-width: 375px){
         align-items: center;
         margin: 1vw;
         width: 250px;
     }
-
     @media (min-width: 1024px){
         margin-right: 5vw;
-        /* width: 305px; */
     }
 }
 `

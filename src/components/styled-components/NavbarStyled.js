@@ -18,7 +18,7 @@ z-index: 999;
     height: 35vh;
 }
 
-@media (max-width: 412px){
+@media (max-width: 414px){
     flex-wrap: wrap;
     height: 35vh;
 }

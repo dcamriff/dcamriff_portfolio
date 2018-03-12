@@ -11,9 +11,13 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     margin-left: 0;
-}
+} */
+
+/* @media (max-width: 414px){
+    margin-left: 0;
+} */
 
 `
 
@@ -22,6 +26,7 @@ background-color: white;
 width: 100%;
 height: 10%;
 padding: 5px;
+margin-left: 5px;
 @media (max-width: 720px){
     font-size: 11px;
 }
@@ -37,6 +42,7 @@ height: 25%;
     width: 375px;
     height: 338px;
 }
+
 img {
     /* width: 375px; */
     width: 100%;
@@ -56,23 +62,28 @@ a {
 `
 export const Container = styled.div `
 position: relative;
-/* width: 500px; */
-/* height: 400px; */
-width: 33%;
+width: 33.33%;
 height: 25%;
 
+@media (max-width: 414px){
+    width: 100vw;
+    height: 376px;
+}
+
 @media (max-width: 375px){
-    width: 375px;
+    width: 100vw;
     height: 338px;
 }
 img {
-    /* width: 375px; */
     width: 100%;
-    /* height: 400px; */
     border: solid 1px white;
+    
+    @media (max-width: 414px){
+        width: 100vw;
+        margin-left: 0;
+    }
     @media (max-width: 375px){
-        width: 375px;
-        /* height: 300px; */
+        width: 100vw;
         margin-left: 0;
     }
 }
@@ -90,6 +101,10 @@ export const Text = styled.div`
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+
+  @media (max-width: 875px){
+      font-size: 75%;
+  }
 `
   
 export const Image = styled.a`
@@ -108,7 +123,6 @@ export const Overlay = styled.div`
     transition: .5s ease;
     background-color: rgba(221,237,232, .9);
     border: solid 1px white;
-    /* background-color: rgb(251, 255, 0); */
     :hover {
     opacity: 1;
 }

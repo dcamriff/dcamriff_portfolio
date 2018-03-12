@@ -39,7 +39,7 @@ margin-left: 15px;
     margin-left: 0;
 }
 
-@media (max-width: 412px){
+@media (max-width: 414px){
     margin-top: 10px;
     margin-left: 0;
 }
@@ -58,7 +58,7 @@ a {
     /* margin-top: 10px; */
 }
 
-@media (max-width: 412px){
+@media (max-width: 414px){
     /* margin-top: 10px; */
 }
 `
@@ -85,7 +85,7 @@ img {
     margin-top: 10px;
     margin-right: 0;
 }
-@media (max-width: 412px){
+@media (max-width: 414px){
     flex-wrap: wrap;
     margin-top: 10px;
     margin-right: 0;
