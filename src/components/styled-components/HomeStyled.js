@@ -4,6 +4,7 @@ import HomeImage from './img/octane_thejane_0001_web.jpg'
 export const HomeWrapper = styled.div`
 display: flex;
 flex-wrap: wrap;
+/* width: 100%; */
 /* justify-content: space-around; */
 @media (max-width: 375){
     width: 100vw;
@@ -29,20 +30,21 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
-height: 700px;
+height: 68vh;
 
 @media (max-width: 375px){
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    height: 450px;
+    /* height: 450px; */
 }
 `
 export const HomeText = styled.div`
 width: 50%;
+font-size: calc(1em + 1vw);
 h1 {
     /* color: #A56E60; */
     color: white;
-    font-size: 4em;
+    /* font-size: 4em; */
     margin-left: 10px;
     text-shadow:
     -1px -1px 0 rgba(0,0,0,.3),  
@@ -52,9 +54,13 @@ h1 {
 }
 
 @media (max-width: 375px){
-    font-size: 8px;
+    font-size: 18px;
     margin-left: .5em;
     width: 100%;
+}
+
+@media (min-width: 1024px){
+    width: 60%;
 }
 `
 
@@ -69,8 +75,8 @@ img {
         margin: 1vw;
         width: 250px;
     }
-    @media (min-width: 768px){
-        margin-right: 15vw;
+    @media (min-width: 1024px){
+        margin-right: 5vw;
     }
 }
 `
