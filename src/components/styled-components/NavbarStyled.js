@@ -13,6 +13,11 @@ width: 100vw;
 position: fixed;
 z-index: 999;
 
+@media (max-width: 375px){
+    flex-wrap: wrap;
+    height: 35vh;
+}
+
 @media (max-width: 412px){
     flex-wrap: wrap;
     height: 35vh;
