@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <LinksContainer>
                 <a href="#projects">Projects</a>
                 <span> / </span>
-                <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing">Resume</a>
+                <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing" target="_blank">Resume</a>
                 </LinksContainer>
             </NavContainer>
         )
@@ -23,32 +23,3 @@ class Navbar extends Component {
 
 export default Navbar
 
-// STYLED COMPONENTS ...............
-
-// const Nav = styled.nav `
-// display: grid;
-// grid-template-columns: 33%px 33% 33%;
-// grid-gap: 5px;
-// background-color: var(--mint);
-// position: fixed;
-// margin: 5px;
-// height: 80px;
-
-// .item {
-//     display: grid;
-// grid-template-columns: 33%px 33% 33%;
-// grid-gap: 5px;
-// background-color: var(--mint);
-// position: fixed;
-// margin: 5px;
-// height: 80px;
-// }
-
-// .container {
-//     display: grid;
-//     grid-template-columns: 200px auto 200px 200px;
-//     grid-gap: 20px;
-
-// }
-
-// `
