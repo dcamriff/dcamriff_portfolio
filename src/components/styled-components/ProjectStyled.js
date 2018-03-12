@@ -18,7 +18,13 @@ align-items: center;
 `
 
 export const ProjectInfoTitle = styled.div`
-
+background-color: white;
+width: 100%;
+height: 10%;
+padding: 5px;
+@media (max-width: 720px){
+    font-size: 11px;
+}
 `
 export const ProjectImageContainer = styled.div`
 position: relative;
@@ -29,7 +35,7 @@ height: 25%;
 
 @media (max-width: 375px){
     width: 375px;
-    height: 312px;
+    height: 338px;
 }
 img {
     /* width: 375px; */
@@ -37,7 +43,7 @@ img {
     /* height: 400px; */
     border: solid 1px white;
     @media (max-width: 375px){
-        width: 372px;
+        width: 375px;
         /* height: 300px; */
         margin-left: 0;
     }
@@ -57,7 +63,7 @@ height: 25%;
 
 @media (max-width: 375px){
     width: 375px;
-    height: 312px;
+    height: 338px;
 }
 img {
     /* width: 375px; */
@@ -65,7 +71,7 @@ img {
     /* height: 400px; */
     border: solid 1px white;
     @media (max-width: 375px){
-        width: 372px;
+        width: 375px;
         /* height: 300px; */
         margin-left: 0;
     }

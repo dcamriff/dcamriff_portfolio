@@ -1,3 +1,6 @@
+
+// This has been refactored and is no longer in use.
+
 import React, { Component } from 'react'
 import { ProjectSectionTitle, ProjectsContainer, Container, ProjectInfoTitle, ProjectImageContainer, Text, Overlay, Image } from './styled-components/ProjectStyled'
 import DownArrow from './styled-components/img/down arrow.png'
@@ -103,10 +106,7 @@ class Project extends Component {
             </ProjectsContainer>
             </div>
         )
-
     }
-
-    
 }
 
 export default Project
