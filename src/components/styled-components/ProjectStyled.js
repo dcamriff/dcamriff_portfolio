@@ -12,22 +12,41 @@ align-items: center;
 border: solid 1px white;
 margin-left: 4vw;
 
-img {
-    /* width: 416.55px; */
-    width: 500px;
-    height: 400px;
-    border: solid 1px white;
-    @media (max-width){
+@media (max-width: 375px){
+    margin-left: 0;
+}
 
+img {
+    /* width: 500px; */
+    /* height: 400px; */
+    /* border: solid 1px white; */
+    /* @media (max-width: 375px){ */
+        /* width: 372px; */
+        /* height: 300px; */
+        /* margin-left: 0; */
     }
 }
 `
 
 export const Container = styled.div `
 position: relative;
-/* width: 416.55px; */
 width: 500px;
 height: 400px;
+
+@media (max-width: 375px){
+    width: 375px;
+    height: 312px;
+}
+img {
+    width: 375px;
+    /* height: 400px; */
+    border: solid 1px white;
+    @media (max-width: 375px){
+        width: 372px;
+        /* height: 300px; */
+        margin-left: 0;
+    }
+}
 
 a {
      width: 100%;
