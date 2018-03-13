@@ -45,13 +45,14 @@ height: 68vh;
 
 @media (max-width: 414px){
     /* flex-wrap: wrap; */
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    height: 550px;
 }
 
 @media (max-width: 375px){
     /* flex-wrap: wrap; */
-    flex-direction: column-reverse;
-}
+    /* flex-direction: column-reverse; */
+    height: 550px;
 `
 export const HomeText = styled.div`
 width: 50%;
@@ -68,13 +69,13 @@ h1 {
     1px 1px 0 rgba(0,0,0,.3);
 }
 @media (max-width: 414px){
-    font-size: 18px;
+    font-size: 12px;
     margin-left: 1px;
     width: 100%;
 }
 
 @media (max-width: 375px){
-    font-size: 18px;
+    font-size: 12px;
     margin-left: 1px;
     width: 100%;
 }
