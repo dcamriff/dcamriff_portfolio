@@ -16,11 +16,15 @@ z-index: 999;
 @media (max-width: 375px){
     flex-wrap: wrap;
     height: 35vh;
+    position: initial;
+    /* z-index: 1; */
 }
 
 @media (max-width: 414px){
     flex-wrap: wrap;
     height: 35vh;
+    position: initial;
+    /* z-index: 1; */
 }
 `
 export const LogoContainer = styled.div`
