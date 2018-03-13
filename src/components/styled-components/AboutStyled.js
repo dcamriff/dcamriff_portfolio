@@ -13,7 +13,16 @@ padding-right: 5px;
 `
 
 export const AboutContainer = styled.div`
-background-color: #9B5144;
+/* custom color burnt */
+/* background-color: #9B5144; */
+
+/* custom color blonde wood */
+/* background-color: #c2b195; */
+
+/* custom color light gray */
+/* background-color: #e2e2e2; */
+background-color: #3a3a3a;
+
 color: whitesmoke;
 /* border: solid 1px green; */
 display: flex;
