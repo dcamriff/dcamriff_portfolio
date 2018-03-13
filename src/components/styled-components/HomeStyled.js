@@ -69,13 +69,13 @@ h1 {
 }
 @media (max-width: 414px){
     font-size: 18px;
-    margin-left: .5em;
+    margin-left: 1px;
     width: 100%;
 }
 
 @media (max-width: 375px){
     font-size: 18px;
-    margin-left: .5em;
+    margin-left: 1px;
     width: 100%;
 }
 
@@ -95,13 +95,13 @@ img {
     } */
     @media (max-width: 414px){
         align-items: center;
-        margin: 1vw;
-        width: 225px;
+        margin: 1px;
+        width: 175px;
     }
     @media (max-width: 375px){
         align-items: center;
-        margin: 1vw;
-        width: 225px;
+        margin: 1px;
+        width: 175px;
     }
     @media (min-width: 1024px){
         margin-right: 5vw;
