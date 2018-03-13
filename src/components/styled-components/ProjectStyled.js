@@ -10,6 +10,7 @@ export const ProjectsContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
 align-items: center;
+margin-bottom: 50px;
 
 /* @media (max-width: 375px){
     margin-left: 0;
