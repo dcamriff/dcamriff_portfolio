@@ -29,6 +29,13 @@ flex-wrap: wrap;
 margin-left: 5%;
 margin-right: 10%;
 width: 100%;
+@media (max-width: 414px){
+    margin: auto;
+}
+
+@media (max-width: 375px){
+    margin: auto;
+}
 `
 
 export const AboutText = styled.div`
@@ -39,13 +46,26 @@ margin: auto;
 p {
     font-size: 16px;
 }
+@media (max-width: 414px){
+    width: 90%;
+}
+
+@media (max-width: 375px){
+    width: 90%;
+}
 `
 export const AboutImage = styled.div`
-
+@media (max-width: 414px){
+    margin: auto;
+}
+@media (max-width: 375px){
+    margin: auto;
+}
 img {
     width: 175px;
     height: 175px;
     border-radius: 3px;
     padding: 5px;
+
 }
 `
