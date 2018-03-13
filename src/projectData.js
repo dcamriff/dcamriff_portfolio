@@ -25,7 +25,7 @@ export default [
     description: "Project 2: An app that allows family members to keep track in the sharing of family chores.",
     technology: "MongoDB / Express / React / Node.js",
     github: "https://github.com/dcamriff/wdi-project-3-dcr",
-    weblink: "https://project-3-dcr.herokuapp.com/users",
+    weblink: "https://project-3-dcr.herokuapp.com",
     imageUrl: "https://i.imgur.com/Ue0nO1S.png",
 },
 
