@@ -14,22 +14,26 @@ position: fixed;
 z-index: 999;
 
 @media (max-width: 375px){
-    flex-wrap: wrap;
-    height: 45vh;
+    height: 50vh;
     font-size: 4vw;
     position: initial;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 @media (max-width: 414px){
-    flex-wrap: wrap;
-    height: 35vh;
+    height: 50vh;
+    font-size: 4vw;
     position: initial;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 @media (max-width: 707px){
-    flex-wrap: wrap;
     height: 35vh;
     position: initial;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 `
 export const LogoContainer = styled.div`
