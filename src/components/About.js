@@ -47,7 +47,7 @@ const About = () => {
                 <img src={HeartImage} alt="heart"/>
                 </AboutImage>
                 <AboutText>
-                <p>Other Things That Bring Me Joy > I love working in front-end development and building on my full-stack knowledge / I love working with others / I'm passionate about what I do / I love seeking solutions and efficiency </p>
+                <p>Other Things That Bring Me Joy > working in front-end development and building on my full-stack knowledge / team environments / seeking solutions to problems / having passion in what I do </p>
                 </AboutText>
             </AboutCard>
             </div>
