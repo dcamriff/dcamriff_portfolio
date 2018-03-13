@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProjectCard from './ProjectCard'
-import DownArrow from './styled-components/img/down arrow.png'
+import PinIconB from './styled-components/img/pin-black-2x.png'
 import { ProjectSectionTitle, ProjectsContainer } from './styled-components/ProjectStyled'
 
 class ProjectList extends Component {
@@ -25,10 +25,9 @@ class ProjectList extends Component {
 
         return (
             <div>
-                <ProjectSectionTitle>
-                    <img src={DownArrow} alt=""/>
+                <ProjectSectionTitle id="projects">
+                    <img src={PinIconB} alt=""/>
                     <span> Projects </span>
-                    <img src={DownArrow} alt=""/>
                 </ProjectSectionTitle>
 
                 <ProjectsContainer>

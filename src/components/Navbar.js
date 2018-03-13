@@ -11,7 +11,9 @@ class Navbar extends Component {
                 {/* <NavHeaderContainer>Nav Head</NavHeaderContainer> */}
                 <LinksContainer>
                 <a href="#projects">Projects</a>
-                <span> / </span>
+                <span>/</span>
+                <a href="#aboutme">About</a>
+                <span>/</span>
                 <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing" target="blank">Resume</a>
                 </LinksContainer>
             </NavContainer>

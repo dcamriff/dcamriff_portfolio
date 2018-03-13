@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const FootContainer = styled.div`
 background-color: black;
-color: white;
+color: whitesmoke;
 /* border: solid 1px green; */
 display: flex;
 justify-content: space-between;
@@ -32,7 +32,7 @@ left: 0;
 `
 
 export const FootLeftContainer = styled.div`
-color: white;
+color: whitesmoke;
 margin-left: 15px;
 @media (max-width: 375px){
     margin-top: 10px;
@@ -45,14 +45,14 @@ margin-left: 15px;
 }
 `
 export const FootCenterContainer = styled.div`
-color: white;
+color: whitesmoke;;
 img {
     width: 32px;
     padding: 0 10px;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 @media (max-width: 375px){
     /* margin-top: 10px; */
@@ -66,7 +66,7 @@ a {
 export const FootRightContainer = styled.div`
 /* background-color: pink; */
 /* border: solid 1px black; */
-color: white;
+color: whitesmoke;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -74,7 +74,7 @@ margin-right: 15px;
 a {
     text-decoration: none;
     padding: 0 15px;
-    color: white;
+    color: whitesmoke;
 }
 img {
     width: 32px;

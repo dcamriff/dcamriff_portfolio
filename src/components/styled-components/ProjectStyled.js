@@ -4,6 +4,9 @@ export const ProjectSectionTitle = styled.div`
 font-size: 1.50em;
 align-items: center;
 text-align: center;
+img {
+    margin-top: 5px;
+}
 `
 
 export const ProjectsContainer = styled.div`
@@ -26,8 +29,9 @@ export const ProjectInfoTitle = styled.div`
 background-color: white;
 width: 100%;
 height: 10%;
-padding: 5px;
-margin-left: 5px;
+text-align: center;
+/* padding: 5px; */
+/* margin-left: 7px; */
 @media (max-width: 720px){
     font-size: 11px;
 }
@@ -48,7 +52,7 @@ img {
     /* width: 375px; */
     width: 100%;
     /* height: 400px; */
-    border: solid 1px white;
+    border: solid 1px whitesmoke;
     @media (max-width: 375px){
         width: 375px;
         /* height: 300px; */
@@ -77,7 +81,7 @@ height: 25%;
 }
 img {
     width: 100%;
-    border: solid 1px white;
+    border: solid 1px whitesmoke;
     
     @media (max-width: 414px){
         width: 100vw;
@@ -123,7 +127,7 @@ export const Overlay = styled.div`
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(221,237,232, .9);
-    border: solid 1px white;
+    border: solid 1px whitesmoke;
     :hover {
     opacity: 1;
 }

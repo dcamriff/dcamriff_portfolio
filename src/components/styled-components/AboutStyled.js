@@ -1,11 +1,51 @@
 import styled from 'styled-components'
 
-export const AboutContainer = styled.div`
-background-color: whitesmoke;
-/* border: solid 1px green; */
-display: row;
-justify-content: space-between;
+export const AboutSectionTitle = styled.div`
+font-size: 1.50em;
 align-items: center;
-height: 900px;
-font-size: 30px;
+text-align: center;
+width: 100%;
+margin-bottom: 7px;
+margin-top: 3px;
+img {
+padding-right: 5px;
+}
+`
+
+export const AboutContainer = styled.div`
+background-color: #9B5144;
+color: whitesmoke;
+/* border: solid 1px green; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* height: 900px; */
+/* font-size: 30px; */
+`
+export const AboutCard = styled.div`
+display: flex;
+flex-wrap: wrap;
+margin-left: 5%;
+margin-right: 10%;
+width: 100%;
+`
+
+export const AboutText = styled.div`
+width: 60vw;
+padding-left:10px;
+margin: auto;
+
+p {
+    font-size: 16px;
+}
+`
+export const AboutImage = styled.div`
+
+img {
+    width: 175px;
+    height: 175px;
+    border-radius: 3px;
+    padding: 5px;
+}
 `

@@ -25,6 +25,10 @@ export const HomeNavBackground = styled.div`
 height: 21vh;
 background-color: #DDEDE8;
 
+@media (max-width: 700px){
+    height: 20px;
+}
+
 @media (max-width: 414px){
     height: 0px;
 }
@@ -59,7 +63,7 @@ width: 50%;
 font-size: calc(1em + 1vw);
 h1 {
     /* color: #A56E60; */
-    color: white;
+    color: whitesmoke;
     /* font-size: 4em; */
     margin-left: 10px;
     text-shadow:
@@ -90,7 +94,7 @@ export const ProfileImageContainer = styled.div`
 img {
     width: 275px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
     /* @media (max-width: 615px) and (min-width: 376px){
         width: 200px;
     } */
