@@ -15,7 +15,8 @@ z-index: 999;
 
 @media (max-width: 375px){
     flex-wrap: wrap;
-    height: 35vh;
+    height: 45vh;
+    font-size: 4vw;
     position: initial;
 }
 
