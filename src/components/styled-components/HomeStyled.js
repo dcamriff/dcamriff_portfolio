@@ -61,11 +61,15 @@ height: 68vh;
 export const HomeText = styled.div`
 width: 50%;
 font-size: calc(1em + 1vw);
+background-color: rgba(0,0,0,.5);
+align-content: center;
+border-top-right-radius: 1%;
+border-bottom-right-radius: 1%;
 h1 {
     /* color: #A56E60; */
     color: whitesmoke;
     /* font-size: 4em; */
-    margin-left: 10px;
+    margin-left: 50px;
     text-shadow:
     -1px -1px 0 rgba(0,0,0,.3),  
     1px -1px 0 rgba(0,0,0,.3),
