@@ -12,9 +12,9 @@ class Footer extends Component {
                 <FootLeftContainer>Diane Riffel © </FootLeftContainer>
                 <FootCenterContainer></FootCenterContainer>
                 <FootRightContainer>
-                    <a href="https://www.linkedin.com/in/dianeriffel-atl/" target="blank"><img src={LinkedIcon} alt="LinkedIn"/></a>
-                    <a href="https://twitter.com/ladydaytripper" target="blank"><img width={32} src={TwitterIcon} alt="Twitter"/></a>
-                    <a href="https://github.com/dcamriff?tab=repositories" target="blank"><img src={GithubIcon} alt="Github"/></a>
+                    <a href="https://www.linkedin.com/in/dianeriffel-atl/"target="_blank"><img src={LinkedIcon} alt="LinkedIn"/></a>
+                    <a href="https://twitter.com/ladydaytripper" target="_blank"><img width={32} src={TwitterIcon} alt="Twitter"/></a>
+                    <a href="https://github.com/dcamriff?tab=repositories" _target="blank"><img src={GithubIcon} alt="Github"/></a>
                     <a href="mailto:diane.c.riffel@gmail.com"><img src={MailIcon} alt="email Diane"/></a>
                 </FootRightContainer>
             </FootContainer>        

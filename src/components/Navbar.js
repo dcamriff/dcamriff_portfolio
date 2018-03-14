@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <span>/</span>
                 </div>
                 <div>
-                <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing" target="blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1Ti5X-KEb--O6cDYiz9Tq_YdTDXtE_hSY/view?usp=sharing" target="_blank">Resume</a>
                 </div>
                 </LinksContainer>
             </NavContainer>

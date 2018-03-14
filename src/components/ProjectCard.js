@@ -19,7 +19,7 @@ class ProjectCard extends Component {
                 </ProjectInfoTitle>
 
                 <ProjectImageContainer>
-                    <a href={this.props.weblink} target="blank">
+                    <a href={this.props.weblink} target="_blank">
                         <img src={this.props.imageUrl} alt={this.props.name}/>
 
                         <Overlay>

@@ -37,7 +37,7 @@ class Project extends Component {
                     </ProjectInfoTitle>
 
                     <ProjectImageContainer>
-                    <a href="https://barista-goals.herokuapp.com/" target="blank">
+                    <a href="https://barista-goals.herokuapp.com/" target="_blank">
                         <img src="https://i.imgur.com/mlTyXWm.png" alt="barista goals"/>
     
                         <Overlay>
@@ -49,7 +49,7 @@ class Project extends Component {
     
                 <Container>
                 <h3>Jeopardy Game</h3>
-                    <a href="http://jeopardy-for-kids-game-5e11a7.bitballoon.com/" target="blank">
+                    <a href="http://jeopardy-for-kids-game-5e11a7.bitballoon.com/" target="_blank">
                         <img src="https://i.imgur.com/Er44s8D.png" alt="jeapoardy game app"/>
                        
                         <Overlay>
@@ -60,7 +60,7 @@ class Project extends Component {
     
                 <Container>
                 <h3>Chore Rewarder</h3>
-                    <a href="https://project-3-dcr.herokuapp.com/users" target="blank">
+                    <a href="https://project-3-dcr.herokuapp.com/users" target="_blank">
                         <img src="https://i.imgur.com/Ue0nO1S.png" alt="chore rewarder app"/>
     
                         <Overlay>
@@ -72,7 +72,7 @@ class Project extends Component {
     
                 <Container>
                 <h3>Vojago Travel</h3>
-                    <a href="http://voyago.herokuapp.com/" target="blank">
+                    <a href="http://voyago.herokuapp.com/" target="_blank">
                         <img src="https://i.imgur.com/qefJNAY.png" alt="vojago app"/>
     
                         <Overlay>
@@ -83,7 +83,7 @@ class Project extends Component {
                 
                 <Container>
                 <h3>Gig Posters</h3>
-                    <a href="https://gig-posters-wdi.herokuapp.com/" target="blank">
+                    <a href="https://gig-posters-wdi.herokuapp.com/" target="_blank">
                         <img src="https://i.imgur.com/RWjdxA0.png" alt="gig poster app"/>
     
                         <Overlay>
@@ -94,7 +94,7 @@ class Project extends Component {
     
                 <Container>
                 <h3>Portfolio Site</h3>
-                    <a href="https://github.com/dcamriff/dcamriff_portfolio/" target="blank">
+                    <a href="https://github.com/dcamriff/dcamriff_portfolio/" target="_blank">
                         <img src="https://i.imgur.com/KqX07mk.png" alt="portfolio"/>
     
                         <Overlay>
