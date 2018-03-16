@@ -20,23 +20,23 @@ export default [
 },
 
 {
-    name: "2 | Chore Rewarder",
-    name2: "Chore Rewarder",
-    description: "Project 2: An app that allows family members to keep track in the sharing of family chores.",
-    technology: "MongoDB / Express / React / Node.js",
-    github: "https://github.com/dcamriff/wdi-project-3-dcr",
-    weblink: "https://project-3-dcr.herokuapp.com",
-    imageUrl: "https://i.imgur.com/Ue0nO1S.png",
-},
-
-{
-    name: "3 | Gig Posters",
+    name: "2 | Gig Posters",
     name2: "Gig Posters",
-    description: "Project 3: A site that allows users to upload and track details of their band poster collections.",
+    description: "Project 2: A site that allows users to upload and track details of their band poster collections.",
     technology: "MongoDB / Express / Node.js",
     github: "https://github.com/dcamriff/gig-posters-wdi",
     weblink: "https://gig-posters-wdi.herokuapp.com/",
     imageUrl: "https://i.imgur.com/RWjdxA0.png",
+},
+
+{
+    name: "3 | Chore Rewarder",
+    name2: "Chore Rewarder",
+    description: "Project 3: An app that allows family members to keep track in the sharing of family chores.",
+    technology: "MongoDB / Express / React / Node.js",
+    github: "https://github.com/dcamriff/wdi-project-3-dcr",
+    weblink: "https://project-3-dcr.herokuapp.com",
+    imageUrl: "https://i.imgur.com/Ue0nO1S.png",
 },
 
 {
