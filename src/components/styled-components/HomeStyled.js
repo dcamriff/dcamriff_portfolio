@@ -2,50 +2,38 @@ import styled from 'styled-components'
 import HomeImage from './img/octane_thejane_0001_web.jpg'
 
 export const HomeWrapper = styled.div`
-display: flex;
-flex-wrap: wrap;
-/* width: 100%; */
-/* justify-content: space-around; */
-@media (max-width: 414){
-    width: 100vw;
-    /* height: 600px; */
-    /* flex-wrap: wrap-reverse; */
-    /* flex-direction: column-reverse; */
-}
-
-@media (max-width: 375){
-    width: 100vw;
-    /* height: 600px; */
-    /* flex-wrap: wrap-reverse; */
-    /* flex-direction: column-reverse; */
-}
+width: 100vw;
 `
 
 export const HomeNavBackground = styled.div`
 height: 21vh;
+width: 100vw;
 background-color: #DDEDE8;
 
 @media (max-width: 700px){
-    height: 20px;
+    height: 0px;
+}
+
+@media (max-width: 375px){
+    height: 0px;
+
 }
 
 @media (max-width: 414px){
     height: 0px;
 }
-
-@media (max-width: 375px){
-height: 0px;
-}
 `
 
 export const HomeContent = styled.div`
 background: url(${HomeImage}) center no-repeat;
+width: 100%;
 background-size: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 height: 68vh;
+margin: auto;
 
 @media (max-width: 414px){
     /* flex-wrap: wrap; */
@@ -59,7 +47,7 @@ height: 68vh;
     height: 550px;
 `
 export const HomeText = styled.div`
-width: 50%;
+width: 60%;
 font-size: calc(1em + 1vw);
 background-color: rgba(0,0,0,.5);
 align-content: center;
@@ -76,46 +64,49 @@ h1 {
     -1px 1px 0 rgba(0,0,0,.3),
     1px 1px 0 rgba(0,0,0,.3);
 }
-@media (max-width: 414px){
-    font-size: 12px;
-    margin-left: 1px;
-    width: 100%;
-}
 
 @media (max-width: 375px){
     font-size: 12px;
-    margin-left: 1px;
+    /* margin-left: 1px; */
     width: 100%;
 }
 
-@media (min-width: 1024px){
-    width: 60%;
+@media (max-width: 414px){
+    font-size: 12px;
+    /* margin-left: 1px; */
+    width: 100%;
 }
+/* @media (min-width: 1024px){
+    width: 60%;
+} */
 `
 
 export const ProfileImageContainer = styled.div`
-
+width: 40%;
+margin: auto;
 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 275px;
     border-radius: 50%;
     border: 5px solid whitesmoke;
-    /* @media (max-width: 615px) and (min-width: 376px){
-        width: 200px;
-    } */
-    @media (max-width: 414px){
-        align-items: center;
-        margin: 1px;
-        width: 175px;
-    }
-    @media (max-width: 375px){
-        align-items: center;
-        margin: 1px;
-        width: 175px;
-    }
-    @media (min-width: 1024px){
-        margin-right: 5vw;
-    }
 }
+@media (max-width: 100px){
+        width: 90%;
+    }
+@media (max-width: 375px){
+    width: 100%;
+    align-items: center;
+    
+}
+@media (max-width: 414px){
+    align-items: center;
+    margin: auto;
+}
+@media (min-width: 1024px){
+        /* margin-right: 5vw; */
+    }
 `
 
 

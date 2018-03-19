@@ -12,8 +12,8 @@ const About = () => {
             <AboutSectionTitle>
             <img src={PinIconW} alt=""/>
             <span> About Me </span>
-            <div> ... </div>
-            <div>I love to Create Things</div>
+            <div> / </div>
+            <div>Things I've Created</div>
             </AboutSectionTitle>
 
             

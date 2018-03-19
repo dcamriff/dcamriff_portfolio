@@ -9,10 +9,10 @@ class Home extends Component {
                 <HomeNavBackground></HomeNavBackground>
                 <HomeContent>
                     <HomeText>
-                        <h1>Hi, I'm Diane, a shop owner turned full stack developer.</h1>
+                        <h1>Hi, I love to create things.</h1>
                     </HomeText>
                     <ProfileImageContainer>
-                        <img src={ProfilePic} alt=""/>
+                        <img src={ProfilePic} alt="diane"/>
                     </ProfileImageContainer>
                 </HomeContent>
             </HomeWrapper>
