@@ -63,17 +63,27 @@ h1 {
     1px -1px 0 rgba(0,0,0,.3),
     -1px 1px 0 rgba(0,0,0,.3),
     1px 1px 0 rgba(0,0,0,.3);
+    @media (max-width: 375px ) {
+        margin-left: 4px;
+        margin-right: auto;
+    }
+    @media (max-width: 414px ) {
+        margin-left: 4px;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 375px){
-    font-size: 12px;
-    /* margin-left: 1px; */
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 
 @media (max-width: 414px){
-    font-size: 12px;
-    /* margin-left: 1px; */
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 /* @media (min-width: 1024px){

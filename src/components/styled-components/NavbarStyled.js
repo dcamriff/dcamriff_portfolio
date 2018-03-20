@@ -59,7 +59,7 @@ a {
     text-decoration: none;
     padding: 0 15px;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 @media (max-width: 412px){
     flex-wrap: wrap;
